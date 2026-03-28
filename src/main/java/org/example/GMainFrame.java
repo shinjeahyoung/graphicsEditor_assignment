@@ -7,7 +7,7 @@ public class GMainFrame extends JFrame {
     //attributes(속성)
     private int size; // 이런거 JFrame에서 다 만들어 놔서 필요 없음
 
-    // components(부품, 자식)
+    // components(부품, 자식) 안만들어도 상관없지만 만드는 게 좋음
     private GMenuBar menuBar;
     private GToolBar toolBar;
     private GDrawingPanel drawingPanel;
@@ -31,6 +31,7 @@ public class GMainFrame extends JFrame {
 
         this.drawingPanel = new GDrawingPanel();
         this.add(drawingPanel, BorderLayout.CENTER);
+        //이것들 다 JFrame에 추가하는 것임.(??)
     }
 
     // member functions (함수, 동사(기능))

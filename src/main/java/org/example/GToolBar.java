@@ -12,5 +12,6 @@ public class GToolBar extends JToolBar {
 
         this.ovalButton = new JRadioButton("Oval");
         this.add(ovalButton);
+        //실제론 JTooBar에 추가됨.
     }
 }
